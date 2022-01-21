@@ -10,7 +10,7 @@ public class Babamba extends IceCream {
 	}
 
 	void taste() {
-		System.out.println("π„ ∏¿¿Ã ≥≠¥Ÿ.");
+		System.out.println("π„ ∏¿§§ ≥≠¥Ÿ.");
 		
 	}
 	
