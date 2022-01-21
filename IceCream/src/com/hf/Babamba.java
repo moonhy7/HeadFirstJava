@@ -10,9 +10,9 @@ public class Babamba extends IceCream {
 	}
 
 	void taste() {
-		System.out.println("¹ã ¸Àccc¤¤ ³­´Ù.");
-		
+		System.out.println("¹ã ³ª³ª³ª³ª³ª ³­´Ù.");
 	}
+	
 	
 	
 	
