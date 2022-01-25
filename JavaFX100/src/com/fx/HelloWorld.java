@@ -1,5 +1,6 @@
 package com.fx;
 
+import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -17,13 +18,16 @@ public class HelloWorld extends Application {
         primaryStage.setTitle("Hello World!");
         Button btn = new Button();
         btn.setText("Say 'Hello World'");
-        btn.setOnAction(new EventHandler<ActionEvent>() {
- 
-            @Override
-            public void handle(ActionEvent event) {
-                System.out.println("Hello World!");
-            }
-        });
+//        btn.setOnAction(new EventHandler<ActionEvent>() {
+// 
+//            @Override
+//            public void handle(ActionEvent event) {
+//                System.out.println("Hello World!");
+//            }
+//        });
+        
+        //람다 표현식!
+        btn.setOnAction(abc -> System.out.println("Hello World!"));
         
         StackPane root = new StackPane();
         root.getChildren().add(btn);
