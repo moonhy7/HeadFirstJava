@@ -3,13 +3,14 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="lib/ojdbc8.jar"/>
+	<classpathentry kind="lib" path="lib/lombok.jar"/>
 	<classpathentry kind="lib" path="lib/ons.jar"/>
 	<classpathentry kind="lib" path="lib/oraclepki.jar"/>
 	<classpathentry kind="lib" path="lib/orai18n.jar"/>
 	<classpathentry kind="lib" path="lib/osdt_cert.jar"/>
+	<classpathentry kind="lib" path="lib/osdt_core.jar"/>
 	<classpathentry kind="lib" path="lib/simplefan.jar"/>
 	<classpathentry kind="lib" path="lib/ucp.jar"/>
 	<classpathentry kind="lib" path="lib/xdb6.jar"/>
-	<classpathentry kind="lib" path="lib/osdt_core.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
