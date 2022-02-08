@@ -21,8 +21,6 @@ public class Main {
 						"Go to the store and buy some more, " + N +" bottles of beer on the wall.\n");
 				K--;
 			}
-		}
-		
-		
+		}		
 	}
 }
